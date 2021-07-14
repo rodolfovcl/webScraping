@@ -1,11 +1,11 @@
-const request = require('request')
+const request = require('request') // requerido por 'requestPromise' para funcionar correctamente
 const requestPromise = require('request-promise')
 const cheerio = require('cheerio')
 const fs = require('fs')
 const { Parser } = require('json2csv')
 const jexcel = require('json2excel')
 
-
+// Array globales
 let empresas = []
 let paginacion = []
 let objDatosObtenidosScraped = []
